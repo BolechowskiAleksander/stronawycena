@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wycena nieruchomosci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <a name="HOME"></a>
+        <nav>
+          <!---  <a href="index.html"><img src="images/logo.png"></a>-->
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#OFERTA">OFERTA</a></li>
+                    <li><a href="#O.MNIE">O MNIE</a></li>
+                    <li><a href="#KONTAKT">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+           
+            
+
+        </nav>
+        <div class="text-box">
+            <h1>RZECZOZNAWCA</br>MAJĄTKOWY</h1>
+            <p>POTRZEBUJESZ WYCENIĆ SWOJĄ NIERUCHOMOŚĆ?</p>
+            
+        </div>
+    </section>
+    <!----- oferta ------>
+    <section class="course">
+        <a name="OFERTA"></a>
+        <h1>OFERTA</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>co oferuje?</h3>
+                <p>SZACUNKOWE WYCENY:<br/>- nieruchomości komercyjne<br/>- nieruchomości mieszkalne<br/>- inne nieruchomości<br/>- grunty o różnym przeznaczeniu</p>
+            </div>
+            <div class="course-col">
+                <h3>dla kogo?</h3>
+                <p>- Klienci indywidualni<br/>- Klienci biznesowi<br/>- Biura Nieruchomości<br/>- Inne podmioty</p>
+            </div>
+            <div class="course-col">
+                <h3>gdzie?</h3>
+                <p>Głównym obszarem mojej działalności jest powiat lubiński oraz województwo dolnośląskie. W indywidualnych przypadkach jestem gotowy wykonać usługę w dalszych odległościach.</p>
+            </div>
+        </div>
+    </section>
+    <!----- wycenione projekty ----->
+    <section class="campus">
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/dompion4.jpg">
+                <div class="layer">
+                    <h3>DOMY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>MIESZKANIA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/biuro1.jpg">
+                <div class="layer">
+                    <h3>BIURA</h3>
+                </div>
+            </div>+
+        </div>
+    </section>
+    <!----- certyfikaty ------>
+    <section class="facilities">
+        <h1>CERTYFIKATY</h1>
+        <p class="opiscertyfikatu">Zdobyte certyfikaty potwierdzające doświadczenie zawodowe:</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/cert1.jpg">
+                <h3>certyfikat rzeczoznawcy majątkowego</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cert1.jpg">
+                <h3>certyfikat wyceny elektrycznej</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cert1.jpg">
+                <h3>certyfikat czegos innego</h3>
+            </div>
+        </div>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>    
+</body>
+</html>
+
+<!----- o mnie ------>
+
+<section class="about-us">
+    <a name="O.MNIE"></a>
+    <div class="row">
+        <div class="about-col">
+            <h1>O MNIE</h1>
+            <br>Świadcze kompleksowe usługi z zakresu wyceny oraz doradztwa inwestycyjnego w obszarze rynku nieruchomości. Ofertę kieruje do instytucji finansowych i publicznych, deweloperów, inwestorów, przedsiębiorstw, komorników, syndyków, klientów indywidualnych oraz innych podmiotów zainteresowanych przedmiotem mojej działalności</br></br>Rzeczoznawca majątkowy z uprawnieniami zawodowymi nr 9999  nadanymi przez Ministra Infrastruktury i Budownictwa</p>
+        </div>
+        <div class="about-col">
+            <img src="images/rzecz2.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!----- kontakt ------>
+<a name="KONTAKT"></a>
+
+
+<section class="contact">
+    <h1>KONTAKT</h1>
+    <div class="row2">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+48 111 222 333</h5>
+                    <p>od poniedziałku do piątku 8:00-16:00</p>
+                </span>
+            </div> 
+        </div>
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>jakismail@gmail.com</h5>
+                    <p>napisz do mnie</p>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d318324.5744694895!2d15.962923598789947!3d
+    51.441433150365164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f65ac1b5afbe5%3A0x3020e32ad0ec1c0
+    !2sPowiat%20lubi%C5%84ski!5e0!3m2!1spl!2spl!4v1662648440996!5m2!1spl!2spl"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div></div>
+</section>
+
+<!----- footer ------>
+
+<section class="footer">
+        <p>Copyright © 2022</p>
+</section>
+
